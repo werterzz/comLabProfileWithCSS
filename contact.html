@@ -51,30 +51,30 @@
 
     <div class="container center">
 
-        <form class="py-200 formContact">
+        <form class="py-200 formContact" id="contactForm">
             
             <div class="form-group">
                 <label for="exampleInputEmail1"><h5>Subject</h5></label>
-                <input type="email" class="form-control inputSize" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Enter email">
+                <input type="text" class="form-control inputSize" name="subject" id="subject"  value="sdfkljaf" aria-describedby="emailHelp"
+                    placeholder="Enter Subject">
 
             </div>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Massage</label>
-                <textarea class="form-control inputSize" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control inputSize" id="massage" rows="3"></textarea>
             </div>
             <div class="radioCheck">
                 <h5>Gender</h5>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                        value="option1" checked>
+                    <input class="form-check-input" type="radio" name="gender" id="exampleRadios1"
+                        value="Male" checked>
                     <label class="form-check-label" for="exampleRadios1">
                         Male
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                        value="option2">
+                    <input class="form-check-input" type="radio" name="gender" id="exampleRadios2"
+                        value="Female">
                     <label class="form-check-label" for="exampleRadios2">
                         Female
                     </label>
@@ -83,18 +83,21 @@
 
             <div class="form-group">
                 <label for="exampleInputEmail1"><br> Email</label>
-                <input type="email" class="form-control inputSize" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input type="email" class="form-control inputSize" id="email" aria-describedby="emailHelp"
                     placeholder="Enter email">
 
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1">Phone</label>
-                <input type="email" class="form-control inputSize" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Enter email">
+                <input type="tel" class="form-control inputSize" id="phone" aria-describedby="emailHelp"
+                    placeholder="Enter phone number">
 
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+
+            
+        
 
     </div>
 
@@ -102,6 +105,8 @@
     <footer class="center">
         <p>Supakon Khongkrajang - supakon@cmu.ac.th - 087-234-2345</p>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
