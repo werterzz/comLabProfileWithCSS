@@ -35,7 +35,7 @@ function displayCard(detail)
 
 function init()
 {
-    if(JSON.parse(localStorage.getItem('detail')).length == 0)
+    if(JSON.parse(localStorage.getItem('detail')) == null)
     {
         localStorage.setItem('detail', 0);
         // console.log("hello man");
