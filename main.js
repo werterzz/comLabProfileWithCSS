@@ -31,6 +31,17 @@ function displayCard(detail)
     address.appendChild(newDiv);
 }
 
+
+
+function init()
+{
+    if(localStorage.getItem('detail') === null)
+    {
+        localStorage.setItem('detail', 0);
+        
+    }
+}
+
 //seed
 // localStorage.setItem('detail', 0);
 
@@ -63,7 +74,7 @@ document.querySelector('#contactForm').addEventListener('submit', () =>
 
 document.addEventListener('DOMContentLoaded', () => 
 {
-    console.log(JSON.parse(localStorage.getItem('detail')));
+    console.log(typeof JSON.parse(localStorage.getItem('detail')));
     let temp = JSON.parse(localStorage.getItem('detail'));
     temp.forEach( getDetail => {
         console.log(getDetail.subject);
