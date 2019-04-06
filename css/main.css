@@ -1,0 +1,135 @@
+body
+{
+    background-color: floralwhite;
+    color: whitesmoke;
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.mainNav
+{
+    position: relative;
+}
+
+.mainImage
+{
+    width: 25%;
+    height: auto;
+}
+
+.avatar
+{
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 100%;
+}
+
+
+
+.center
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.gallaryImage
+{
+    width: 100%;
+}
+
+.card
+{
+    color: black;
+}
+
+.card img
+{
+    width: auto;
+    height: 180px;
+}
+
+.inputSize
+{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.radioCheck
+{
+    text-align: left;
+    margin-left: 48%;
+}
+
+.brand img
+{
+    padding-top: 5px;
+    margin-right: 20px;
+    width: 32px;
+}
+
+.nav-item.active
+{
+    margin: 0 20px;
+}
+
+.container
+{
+    background-color: brown;
+    max-width: 90%;
+}
+
+p
+{
+    font-size: 1.1em;
+    
+}
+
+footer
+{
+    color: rgba(0,0,0,.9);
+    padding: 20px 0;
+}
+
+.imageSkill
+{
+    width: auto;
+    height: 150px;
+}
+
+.mt-100
+{
+    margin-top: 250px;
+}
+
+.mContact
+{
+    padding-bottom: 1000px;
+}
+
+.py-200
+{
+    padding: 180px 0;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .inputSize
+    {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .radioCheck
+    {
+        text-align: left;
+        margin-left: 43%;
+    }
+}
+
